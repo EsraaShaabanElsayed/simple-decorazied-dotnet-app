@@ -65,15 +65,17 @@ docker build -t dotnet_img .
 
 To run the Docker container, use the following command:
 ```bash
-docker run -d --name my_dotnet_app -p 1010:8080 dotnet_img
+docker run -d --name my_dotnet_app -p 2010:8080 dotnet_img
 ```
-This command runs the container in detached mode, exposes port 8080 inside the container, and maps it to port 1010 on the host machine.
+This command runs the container in detached mode, exposes port 8080 inside the container, and maps it to port 2010 on the host machine.
 ### **Running the Application**
 
 Once the Docker container is running, open your web browser and navigate to:
 ```bash 
-http://localhost:1010
+http://localhost:2010
 ```
 You should see the application running. You can stop or restart the container as needed using Docker commands.
 
-This command runs the container in detached mode, exposes port 8080 inside the container, and maps it to port 1010 on the host machine.
+This command runs the container in detached mode, exposes port 8080 inside the container, and maps it to port 2010 on the host machine.
+![Screenshot from 2024-12-04 14-07-12](https://github.com/user-attachments/assets/ba10b2d0-766c-4ec7-87f4-50d84682c878)
+
