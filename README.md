@@ -1,6 +1,6 @@
 # **Simple Decorated .NET Application (Dockerized)**
 
-This repository contains a simple .NET MVC application that has been containerized using Docker. The application demonstrates how to create and deploy a .NET MVC application with Docker for seamless and scalable deployment.
+This repository contains a simple .NET MVC application containerized using Docker. The application demonstrates how to create and deploy a .NET MVC application with Docker for seamless and scalable deployment.
 
 ## **Table of Contents**
 1. [Project Overview](#project-overview)
@@ -19,7 +19,7 @@ This is a simple .NET MVC application that has been dockerized to allow easy dep
 ## **Features**
 - MVC application built using ASP.NET Core.
 - Containerized using Docker for easy deployment.
-- Exposes the application on port `8080` inside the container and mapped to port `1010` on the host machine.
+- Exposes the application on port `8080` inside the container and mapped to port `2010` on the host machine.
 - Aimed at developers looking to learn how to work with Docker and .NET Core MVC applications.
 
 ## **Prerequisites**
@@ -49,7 +49,7 @@ Before you begin, make sure you have the following installed on your local machi
     dotnet run
     ```
 
-    This will start the application on the default port (`http://localhost:5000`).
+    This will start the application on the default port (`http://localhost:8080`).
 
 ## **Dockerization**
 
