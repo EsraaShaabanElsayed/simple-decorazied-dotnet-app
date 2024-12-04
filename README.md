@@ -77,5 +77,6 @@ http://localhost:2010
 You should see the application running. You can stop or restart the container as needed using Docker commands.
 
 This command runs the container in detached mode, exposes port 8080 inside the container, and maps it to port 2010 on the host machine.
-![Screenshot from 2024-12-04 14-07-12](https://github.com/user-attachments/assets/ba10b2d0-766c-4ec7-87f4-50d84682c878)
+![Screenshot from 2024-12-04 14-07-12](https://github.com/user-attachments/assets/a335f43a-fe45-456b-bb7c-5d406e22b205)
+
 
